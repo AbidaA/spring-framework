@@ -1,4 +1,4 @@
-package seivces;
+package services;
 
 import interfaces.Mentor;
 

@@ -1,4 +1,4 @@
-package seivces;
+package services;
 
 import interfaces.Mentor;
 
@@ -7,4 +7,5 @@ public class FullTimeMentor implements Mentor {
     public void createAccount() {
         System.out.println("full time mentor is created");
     }
+
 }

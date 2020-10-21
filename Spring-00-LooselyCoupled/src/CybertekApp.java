@@ -7,11 +7,14 @@ public class CybertekApp {
     public static void main(String[] args) {
 
         FullTimeMentor fullTime = new FullTimeMentor();
-        //PartTimeMentor partTime = new PartTimeMentor();
+        PartTimeMentor partTime = new PartTimeMentor();
 
-        MentorAccount mentor = new MentorAccount(fullTime);
+        MentorAccount mentor = new MentorAccount(partTime);
+        MentorAccount mentor1 = new MentorAccount(fullTime);
+
 
         mentor.manageAccount();
+        mentor1.manageAccount();
 
     }
 
